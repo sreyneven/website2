@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 100%;
+}
+.header1{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    background: rgb(94, 86, 86);
+}
+.header1 button{
+    width: 70px;
+    height: 40px;
+}
+.header1 a{
+    color: beige
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header2 img{
+    width: 300px;
+}
+.logo-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.header2 a{
+    text-decoration: none;
+}
+.logo-a a{
+    color: brown;
+}
+.a-icon i{
+    margin: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: brown;
+}
+.header2 i a{
+    margin: 3px;
+    color: brown;
+}
+.search{
+    padding: 14px;
+    font-size: 17px;
+    color: brown;
+    border: 1px solid rgb(189, 69, 69);
+    border-radius: 30px;
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color:brown;
+    }
+.header3{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: rgb(190, 184, 184);
+}
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+}
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+ul li {
+      display: inline-block;}
+ul li:hover {
+      background: rgb(138, 136, 136);}
+ul li:hover ul {
+      display: block;}
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+ul li ul li { 
+    background: rgb(145, 141, 141); 
+    display: block; 
+  }
+ul li ul li a {
+      display:block !important;} 
+ul li ul li:hover {
+      background: #666;}
+.header3 a:hover{
+    background:rgb(160, 157, 157);
+    font-size: 19px;
+}
+.header4{
+    width: 100%;
+    height: 70vh;
+    margin-top: -33px;
+    background-repeat: no-repeat;
+    background-image: url(header4.jpg);
+    background-size: cover;
+}
+.header4 h1{
+    padding: 80px;
+    width: 500px;
+    font-size: 50px;
+    color: brown;
+}
+.content1 p{
+    font-size:20px;
+    margin: 7px;
+}
+.content1 i{
+    color: brown;
+    cursor: pointer;
+}
+i:hover{
+    background: rgb(231, 221, 221);
+}
+.content1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content1 .t-left{
+    width: 600px;
+}
+.content1 .t-right{
+    width: 360px;
+    height: 50vh;
+    border-radius: 10px;
+    border: 1px solid rgb(241, 235, 235);
+}
+.content1 .t-right{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba(208, 205, 209, 0.575);
+}
+.content1 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.content1 button{
+    background: rgb(179, 41, 41);
+    padding: 16px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: cornsilk;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.content1 h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.content2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+}
+.content2 i{
+    margin: 50px;
+    padding: 30px;
+    color: rgb(221, 73, 73);
+}
+.content2 p{
+    font-size: 20px;
+    margin-top: -60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(224, 113, 113);
+}
+.content3 h1{
+    text-align: center;
+}
+.content3 p{
+    width: 1200px;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+}
+.content4{
+    width: 90%;
+    margin: auto;
+}
+.content4 h1{
+    text-align: center;
+}
+.content4 p{
+    width: 96%;
+    font-size: 20px;
+    text-align: center;
+}
+.title2 i{
+    margin: 10px;
+    width: 90%;
+    font-size: 20px;
+    padding: 40px;
+    border-top: 2px solid rgb(175, 166, 166);
+    border-bottom: 2px solid rgb(207, 192, 192);
+}
+.select-input{
+    margin-left: 5px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.select-input ::-webkit-input-placeholder{
+    color:brown;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+.select-input select{
+    width: 600px;
+    padding: 15px;
+    font-size: 20px;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.select-input input{
+    width: 530px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.two-select select{
+    width: 582.5px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.checkbox{
+    margin:10px;
+    font-size: 24px;
+    color: brown;
+}
+textarea{
+    width: 1150px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 10px;
+    resize: none;
+    height: 30vh;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button button{
+    padding: 20px;
+    background: brown;
+    color: white;
+    border: none;
+    margin: 20px;
+    font-size: 20px;
+    width: 200px;
+    margin-left: 530px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+    display: flex;
+    background: rgb(184, 174, 174);
+}
+.footer a{
+    color: brown;
+}
+.footer a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.box1{
+    margin: 30px;
+    width: 30%;
+}
+.box2{
+    margin: 30px;
+    width: 30%;
+}
+.box3{
+    margin: 30px;
+    width: 30%;
+}
+.box4{
+    margin: 30px;
+    width: 30%;
+}
+.footer h4{
+    font-size: 30px;
+}
+.socail ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    height: 20vh;
+}
+.socail li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    cursor: pointer;
+}
